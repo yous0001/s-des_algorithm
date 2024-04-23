@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container my-5">
+        <div class="row gx-2">
+            <div class="col-6">
+                <input type="text" class="form-control rounded-5" placeholder="enter the text" id="text">
+            </div>
+            <div class="col-6">
+                <input type="text" class="form-control rounded-5" placeholder="enter the key" id="key">
+            </div>
+        </div>
+        <div class="row gx-5 my-5 mx-5">
+            <div class="col-6">
+                <button class="form-control rounded-5 btn btn-outline-danger" id="encrypt" onclick="encrypt()">encrypt</button>
+            </div>
+            <div class="col-6">
+                <button class="form-control rounded-5 btn btn-outline-success" id="decrypt" onclick="decrypt()">decrypt</button>
+            </div>
+        </div>
+        <div class="row gx-5 my-5 mx-5">
+            <p id="result" class="fs-4"></p>
+        </div>
+    </div>
+    <script src="./jquery/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
